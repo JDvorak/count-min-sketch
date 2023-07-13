@@ -1,0 +1,36 @@
+{
+  "name": "faster-count-min-sketch",
+  "version": "1.0.0",
+  "description": "A faster Count-Min Sketch implementation for estimating item frequencies in a stream.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "benchmark": "node benchmarks/index.js",
+    "test": "tap test/**/*.test.js"
+  },
+  "keywords": [
+    "count-min-sketch",
+    "cms",
+    "frequency",
+    "estimation",
+    "sketch",
+    "data-structure",
+    "streaming"
+  ],
+  "author": "John Dvorak",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDvorak/count-min-sketch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JDvorak/count-min-sketch/issues"
+  },
+  "homepage": "https://github.com/JDvorak/count-min-sketch#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bloom-filters": "^3.0.4",
+    "count-min-sketch": "^1.0.0"
+  }
+}

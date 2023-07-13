@@ -1,0 +1,87 @@
+# Node
+
+node_modules/
+lib-cov/
+.esm-cache/
+
+.tap/
+
+# npm
+
+npm-debug.log
+package-lock.json
+
+# Browserify
+
+bundle.js
+bundle.css
+
+# Text editors
+
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.swo
+*.swp
+*.vi
+
+# WebTorrent
+
+vlc-log.txt
+webtorrent.debug.js
+
+# Override bad GitHub for Mac default
+
+!Icon
+
+# Always ignore
+
+.DS_Store
+Thumbs.db
+
+pids
+logs
+tmp
+
+*.dat
+*.diff
+*.err
+*.gz
+*.log
+*.orig
+*.out
+*.pid
+*.rej
+*.sass-cache
+*.seed
+*~
+
+# Traverse the filesystem un-ignoring and re-ignoring until we get to the nested
+# folder that we are actually trying to unignore. This is the only way I could figure out
+# how to accomplish this. Better ideas, welcome!
+
+!Library/
+Library/*
+
+!Library/Application\ Support/
+Library/Application\ Support/*
+
+!Library/Application\ Support/Sublime\ Text\ 3/
+Library/Application\ Support/Sublime\ Text\ 3/*
+
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/
+Library/Application\ Support/Sublime\ Text\ 3/Packages/*
+
+# Folders to actually un-ignore:
+
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*
+
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/JavaScript/
+!Library/Application\ Support/Sublime\ Text\ 3/Packages/JavaScript/*
+
+# Re-ignore some final folders:
+
+.DS_Store
+Library/Application\ Support/Sublime\ Text\ 3/Packages/User/oscrypto-ca-bundle.crt
+Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.*
