@@ -37,10 +37,7 @@ Count-Min Sketch (CMS) is a probabilistic data structure that provides an effici
 
 ```bash
 npm install faster-count-min-sketch
-# or
-yarn add faster-count-min-sketch
 ```
-*(Assuming the package name on npm will be `faster-count-min-sketch` as per your `package.json`. If it's `count-min-sketch`, adjust accordingly.)*
 
 ## Usage
 
@@ -180,11 +177,9 @@ This implementation has been benchmarked against other popular libraries and sho
 
 To run the included benchmarks:
 ```bash
-cd CountMinSketch # Navigate to the package directory
-npm install       # Ensure devDependencies like 'count-min-sketch' (for comparison) are installed
 npm run benchmark
 ```
-The output will show performance for sketch creation, updates, and queries, comparing this library (Local) with an external one.
+The output will show performance for sketch creation, updates, and queries, comparing this library with two prominent ones available on NPM. Specifically [Bloom-Filters](https://www.npmjs.com/package/bloom-filters) and [Count-Min-Sketch](https://www.npmjs.com/package/count-min-sketch)
 
 **Example Benchmark Output Snippet (Your Mileage May Vary):**
 
